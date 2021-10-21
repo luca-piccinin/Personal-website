@@ -143,9 +143,10 @@ body{
   font-weight: bold;
 }
 
-.container{
+.container_center{
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	text-align: center;
 }
 
@@ -422,7 +423,9 @@ body{
     padding: 2em;
     background: #FFFFFF;
     box-shadow: 0 0px 1px rgb(107, 107, 107), 0 1px 2px rgba(0,0,0,.24);
+	width: fit-content;
 	align-self: center;
+	margin: 20px;
 }
 .icon-left{
 	float: none;
@@ -1600,6 +1603,7 @@ ul.simplefilter {
 	}
 	.markets-grids, .agileits-feedback-grids, .w3-agileits-newsletter, .team-grids, .agile-contact-form, .w3-agile-testimonial, .wthree-blog-grids, .w3_mail_grids,.agileits-team-grids {
 		margin: 2em 0 0 0;
+		align-self: center;
 	}
 	ul.simplefilter {
 		margin: 2em 0 2em;
@@ -1644,7 +1648,7 @@ ul.simplefilter {
 		left: 44%;
 	}
 	.agileits-icon-grid {
-		padding: 1em;
+		align-self: center;
 	}
 	.portfolio figcaption h3 {
 		margin-top: 95px;
