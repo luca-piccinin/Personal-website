@@ -8,6 +8,7 @@ body a{
   -o-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -ms-transition: 0.5s all;
+  
 }
 html, body{
     font-size: 100%;
@@ -19,6 +20,21 @@ body{
 .banner{
 	background: url(../images/1.jpg) no-repeat 0px 0px;
     background-size: cover;
+}
+.banner1{
+	background: url(../images/3.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.banner2{
+	background: url(../images/4.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.banner3{
+	background: url(../images/5.jpg) no-repeat 0px 0px;
+    background-size: cover;
+	align-items: center;
+	align-content: center;
+	align-self: center;
 }
 .agileinfo-dot{
     background: url(../images/dott.png)repeat 0px 0px;
@@ -375,11 +391,28 @@ body{
     margin: 4em 0 0 0;
 }
 .w3about-img {
-    background: url(../images/2.jpg)no-repeat 0px 0px;
+    background: url(../images/4.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 30em;
+	padding: 0;
+	position: relative;
+	left: 2%;
+}
+.w3about-img2 {
+    background: url(../images/3.jpg)no-repeat 0px 0px;
     background-size: cover;
     min-height: 30em;
     padding: 0;
-	position:relative;
+	position: relative;
+	left: 40%;
+}
+.w3about-img3 {
+    background: url(../images/1.jpg)no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 30em;
+    padding: 0;
+	position: relative;
+	left: 2%;
 }
 .w3about-text {
     background: #f2f2f2;
@@ -388,13 +421,54 @@ body{
     padding: 3em;
     right: -30%;
     top: 27%;
+	text-align: center;
+}
+.w3about-text2 {
+    background: #f2f2f2;
+    position: absolute;
+    width: 56%;
+    padding: 3em;
+    right: 70%;
+    top: 27%;
+	text-align: center;
+}
+.w3about-text3 {
+    background: #f2f2f2;
+    position: absolute;
+    width: 56%;
+    padding: 3em;
+    right: -30%;
+    top: 27%;
+	text-align: center;
 }
 .w3about-text h5 {
     font-size: 2.5em;
     color: #212121;
     margin: 0;
 } 
+.w3about-text2 h5 {
+    font-size: 2.5em;
+    color: #212121;
+    margin: 0;
+} 
+.w3about-text3 h5 {
+    font-size: 2.5em;
+    color: #212121;
+    margin: 0;
+} 
 .w3about-text p{
+	color:#999999;
+	font-size:.9em;
+	line-height:1.8em;
+	margin:1em 0 0 0;
+}
+.w3about-text2 p{
+	color:#999999;
+	font-size:.9em;
+	line-height:1.8em;
+	margin:1em 0 0 0;
+}
+.w3about-text3 p{
 	color:#999999;
 	font-size:.9em;
 	line-height:1.8em;
@@ -421,11 +495,11 @@ body{
 }
 .agileits-icon-grid {
     padding: 2em;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0 0px 1px rgb(107, 107, 107), 0 1px 2px rgba(0,0,0,.24);
 	width: fit-content;
 	align-self: center;
-	margin: 20px;
+	margin: 10px;
 }
 .icon-left{
 	float: none;

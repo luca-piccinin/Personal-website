@@ -1,26 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Games Hub a Games Category Bootstrap responsive Website Template</title>
+<title>Portfolio Twitch</title>
+<link rel="icon" href="images/Logo.jfif">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- bootstrap-css -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--// bootstrap-css -->
-<!-- css -->
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<!--// css -->
-<!-- font-awesome icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!-- portfolio -->	
 <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
-<!-- //portfolio -->	
-<!-- font -->
 <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
-<!-- //font -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript">
@@ -34,18 +25,16 @@
 
 </head>
 <body>
-	<!-- banner -->
 	<div class="banner">
 		<div class="agileinfo-dot">
 			<div class="agileits-logo">
-                <br><br>
+                <br>
 				<h1><a href="index.html"></a></h1>
 			</div>
 			<div class="header-top">
 				<div class="container">
 					<div class="header-top-info">
 						<nav class="navbar navbar-default">
-							<!-- Brand and toggle get grouped for better mobile display -->
 							<div class="navbar-header">
 								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 									<span class="sr-only">Toggle navigation</span>
@@ -54,17 +43,16 @@
 									<span class="icon-bar"></span>
 								</button>
 							</div>
-
-							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 								<nav>
 									<ul class="nav navbar-nav">
 										<li class="active"><a href="index.html">Home</a></li>
+										<li><a href="#live" class="scroll">Live</a></li>
+										<!--<li><a href="#canale" class="scroll">Channel</a></li>-->
 										<li><a href="#mail" class="scroll">Contact Us</a></li>
 									</ul>
 								</nav>
 							</div>
-							<!-- /.navbar-collapse -->
 						</nav>
 					</div>
 				</div>
@@ -90,9 +78,7 @@
 								<div class="clearfix"> </div>
 								<script src="js/responsiveslides.min.js"></script>
 								<script>
-									// You can also use "$(window).load(function() {"
 									$(function () {
-									  // Slideshow 4
 									  $("#slider4").responsiveSlides({
 										auto: true,
 										pager:true,
@@ -109,7 +95,6 @@
 								
 									});
 								 </script>
-								<!--banner Slider starts Here-->
 							</div>
 						</div>
 					</div>
@@ -117,108 +102,110 @@
 			</div>
 		</div>
 	</div>
-	<!-- //about --> 
-	<!-- markets -->
-	<div class="markets" id="markets">
+	<!-- portfolio -->
+	<div class="portfolio" id="live">
 		<div class="container">
 			<div class="agileits-title"> 
-				<h3>Our Services</h3>
+				<h3>Games played in Live</h3> 
 			</div>
-			<div class="markets-grids">
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-gamepad" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Suspendisse</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+			<ul class="simplefilter w3layouts agileits">
+				<li class="active w3layouts agileits" data-filter="all">All</li>
+				<li class="w3layouts agileits" data-filter="1">Schooter</li>
+				<li class="w3layouts agileits" data-filter="2">Survival</li>
+				<li class="w3layouts agileits" data-filter="3">Multiplayer</li>
+				<li class="w3layouts agileits" data-filter="4">Adventure</li>
+				<li class="w3layouts agileits" data-filter="5">action</li>
+			</ul>
+			<div class="filtr-container w3layouts agileits">
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1, 3, 4, 5">
+					<a href="images/p1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						</figure>
+					</a>
 				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-trophy" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Aliquam</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+				<div class="filtr-item w3layouts agileits" data-category="1, 3, 5">
+					<a href="images/p2.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p2.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						</figure>
+					</a>
 				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-user" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Consectetur</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+				<div class="filtr-item w3layouts agileits" data-category="1, 3, 5">
+					<a href="images/p3.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p3.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						</figure>
+					</a>
 				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Bibendum</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+				<div class="filtr-item w3layouts agileits" data-category="1, 2, 4, 5">
+					<a href="images/p4.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p4.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						</figure>
+					</a>
 				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-comments" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Vestibulum</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+				<div class="filtr-item w3layouts agileits" data-category="3, 4">
+					<a href="images/p5.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p5.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						</figure>
+					</a>
 				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Fermentum</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+				<div class="filtr-item w3layouts agileits" data-category="1, 3, 5">
+					<a href="images/p6.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p6.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						</figure>
+					</a>
 				</div>
-				<div class="clearfix"> </div>
+				<div class="filtr-item w3layouts agileits" data-category="1, 3, 5">
+					<a href="images/p7.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p7.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						</figure>
+					</a>
+				</div>
+				<div class="filtr-item w3layouts agileits" data-category="1, 2, 3, 4, 5">
+					<a href="images/p8.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p8.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						</figure>
+					</a>
+				</div>
+				<div class="filtr-item w3layouts agileits" data-category="1, 2, 3, 4, 5">
+					<a href="images/p9.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p9.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+						</figure>
+					</a>
+				</div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
-	<!-- //portfolio -->
+	<!-- canale -->
+	<!--<div class="markets" id="canale">
+		<div class="container_center">
+			<div class="agileits-title"> 
+				<h3>My Channel</h3>
+			</div>
+			<div class="agileits-icon-grid">
+				<div class="icon-right">
+					<iframe
+					src="https://player.twitch.tv/?channel=whitegame250&parent=streamernews.example.com&muted=true"
+						src="https://player.twitch.tv/?channel=whitegame250&parent=streamernews.example.com"
+    					width="1280"
+						height="720"
+						scrolling="no"
+						frameborder="0"
+    					allowfullscreen="true">
+					</iframe>
+				</div>
+			</div>
+		</div>
+	</div>-->
 	<!-- modal -->
-	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header"> 
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-					<h4 style="text-align: center;" class="modal-title">Games Hub></h4>
-				</div> 
-				<div class="modal-body">
-					<div class="agileits-w3layouts-info">
-						<img src="images/1.jpg" alt="" />
-						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 	</div><div class="modal about-modal fade" id="myModal1" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -227,15 +214,17 @@
 					<h4 style="text-align: center;" class="modal-title">Whitegame250</h4>
 				</div> 
 				<div class="modal-body">
-					<div class="agileits-w3layouts-info">
+					<div style="text-align: center;" class="agileits-w3layouts-info">
 						<img src="images/Logo.jfif" alt="" />
-						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem</p>
+						<p>Hi, I'm Whitegame250, a Gamer from always, Streamer and  Content Creator.
+							I play Call of Duty, I love FPS in general, survival and all that gives me adrenaline!
+							If you are looking for interaction in a live show and the thrill of the Pro Wombo Combo, my stream is for you!
+							Distinguishing Signs: Hyperactive - 3 second bursts of anger!</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- //blog -->
 	<!-- mail -->
 	<div class="mail" id="mail">
 		<div class="container">
@@ -273,32 +262,24 @@
 	<script src="js/classie.js"></script>
 	<script>
 			(function() {
-				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
 				if (!String.prototype.trim) {
 					(function() {
-						// Make sure we trim BOM and NBSP
 						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
 						String.prototype.trim = function() {
 							return this.replace(rtrim, '');
 						};
 					})();
 				}
-
 				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
-					// in case the input is already filled..
 					if( inputEl.value.trim() !== '' ) {
 						classie.add( inputEl.parentNode, 'input--filled' );
 					}
-
-					// events:
 					inputEl.addEventListener( 'focus', onInputFocus );
 					inputEl.addEventListener( 'blur', onInputBlur );
 				} );
-
 				function onInputFocus( ev ) {
 					classie.add( ev.target.parentNode, 'input--filled' );
 				}
-
 				function onInputBlur( ev ) {
 					if( ev.target.value.trim() === '' ) {
 						classie.remove( ev.target.parentNode, 'input--filled' );
@@ -306,9 +287,7 @@
 				}
 			})();
 		</script>
-	<!-- <script src="js/SmoothScroll.min.js"></script> -->
 	<script type="text/javascript">
-		/* init Jarallax */
 		$('.jarallax').jarallax({
 			speed: 0.5,
 			imgWidth: 1366,
@@ -318,24 +297,11 @@
 	<script src="js/responsiveslides.min.js"></script>
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
-	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
+			$().UItoTop({ easingType: 'easeOutQuart' });				
 			});
 	</script>
-	<!-- //here ends scrolling icon -->
-	<!-- Tabs-JavaScript -->
 	<script src="js/jquery.filterizr.js"></script>
 		<script src="js/controls.js"></script>
 		<script type="text/javascript">
@@ -343,14 +309,11 @@
 				$('.filtr-container').filterizr();
 			});
 		</script>
-	<!-- //Tabs-JavaScript -->
-	<!-- PopUp-Box-JavaScript -->
 		<script src="js/jquery.chocolat.js"></script>
 		<script type="text/javascript">
 			$(function() {
 				$('.filtr-item a').Chocolat();
 			});
 		</script>
-	<!-- //PopUp-Box-JavaScript -->
 </body>	
 </html>
